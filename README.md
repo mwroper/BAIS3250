@@ -1,2 +1,28 @@
 # BAIS3250
 Final project for data wrangling 
+
+# Project: Analyzing the Relationship Between Critical Acclaim and Box Office Success in Films
+
+This project explores the connection between a film's critical reception (IMDb ratings, Metacritic scores) and its commercial success (global box office earnings). It aims to understand if highly-rated films consistently earn more, how genre impacts profitability and ratings, and whether the relationship between critical and commercial success has changed over time.
+
+## Data Sources
+
+* **IMDb Top 1000 Rated Movies:** A dataset containing metadata for top-rated films (ratings, genres, runtime, etc.).
+* **Box Office Mojo Top Worldwide Grossing Films:** Data scraped from [Box Office Mojo](https://www.boxofficemojo.com/) containing the top 1,000 movies ranked by lifetime global gross earnings.
+
+## Analysis
+
+The analysis involves:
+
+1.  **Data Integration:** Merging the IMDb and Box Office Mojo datasets.
+2.  **Descriptive Analytics:** Calculating correlations between ratings and earnings, analyzing performance by genre, and examining trends over time.
+3.  **Visualization:** Using scatter plots, bar charts, and line graphs to illustrate findings.
+
+## Tools
+
+* Python
+* Libraries: pandas, seaborn, matplotlib, scipy
+
+## Goal
+
+The project aims to provide actionable insights for data-driven decision-making in film production and marketing by uncovering patterns linking artistic merit and financial success. All code, data, and visualizations are intended to be shared via Jupyter notebooks.
