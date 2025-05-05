@@ -10,6 +10,19 @@ This project explores the connection between a film's critical reception (IMDb r
 * **IMDb Top 1000 Rated Movies:** A dataset containing metadata for top-rated films (ratings, genres, runtime, etc.).
 * **Box Office Mojo Top Worldwide Grossing Films:** Data scraped from [Box Office Mojo](https://www.boxofficemojo.com/) containing the top 1,000 movies ranked by lifetime global gross earnings.
 
+## Data Dictionary
+
+| Field          | Type    | Description                             | Dataset         |
+|----------------|---------|-----------------------------------------|-----------------|
+| Rank           | Numeric | Movie's rank by global gross earnings | Box Office Mojo |
+| Title          | Text    | Movie title                             | Both            |
+| Lifetime Gross | Text    | Worldwide earnings (e.g., "$2.9B")    | Box Office Mojo |
+| Year           | Numeric | Release year                            | Both            |
+| IMDB_Rating    | Numeric | IMDb user rating (0-10)                 | IMDb            |
+| Genre          | Text    | Genres (e.g., "Action, Drama")          | IMDb            |
+| Runtime        | Numeric | Duration in minutes                     | IMDb            |
+| Certificate    | Text    | Content rating (e.g., "PG-13")          | IMDb            |
+
 ## Analysis
 
 The analysis involves:
