@@ -1,6 +1,12 @@
 # BAIS3250
 Final project for data wrangling 
 
+# Files
+- **Data** folder contains all the data, with readme explaination
+- **MWRoper_DW_Final.ipynb** is the final analysis conducted
+- **MWRoper_Project.ipynb** is the initial web scrapping, cleaning, integrating, and first attempts at analysis.
+- **MWRoper_Project_DW.pptx** is the power point for project check in
+
 # Project: Analyzing the Relationship Between Critical Acclaim and Box Office Success in Films
 
 This project explores the connection between a film's critical reception (IMDb ratings, Metacritic scores) and its commercial success (global box office earnings). It aims to understand if highly-rated films consistently earn more, how genre impacts profitability and ratings, and whether the relationship between critical and commercial success has changed over time.
