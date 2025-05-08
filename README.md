@@ -6,6 +6,7 @@ Final project for data wrangling
 - **MWRoper_DW_Final.ipynb** is the final analysis conducted
 - **MWRoper_Project.ipynb** is the initial web scrapping, cleaning, integrating, and first attempts at analysis.
 - **MWRoper_Project_DW.pptx** is the power point for project check in
+- **MWRoper_FinalReport** is the final report summerizing the whole project
 
 # Project: Analyzing the Relationship Between Critical Acclaim and Box Office Success in Films
 
